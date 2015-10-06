@@ -4,5 +4,5 @@
 EL RESULTADO PUEDES VERLO EN 
 
 # TP1:  
-# TP": http://fullstack.apgca.cl/tp2/index.html
+# TP2: http://fullstack.apgca.cl/tp2/index.html
 
