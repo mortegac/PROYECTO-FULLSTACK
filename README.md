@@ -2,5 +2,7 @@
 
 
 EL RESULTADO PUEDES VERLO EN 
-TP1:  http://fullstack.apgca.cl/tp2
+
+# TP1:  
+# TP": http://fullstack.apgca.cl/tp2/index.html
 
