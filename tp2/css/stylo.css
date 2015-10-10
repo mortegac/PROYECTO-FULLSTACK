@@ -343,6 +343,7 @@ ul p {
   display: inline-block;
   position: relative;
   vertical-align: top;
+  top: -15px;
 }
 .ServIco figure {
   margin: 0px;
@@ -378,6 +379,7 @@ ul p {
   display: inline-block;
   position: relative;
   vertical-align: top;
+  top: -15px;
 }
 .ServIcoDer figure {
   margin: 0px;
