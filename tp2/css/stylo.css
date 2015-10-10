@@ -510,6 +510,7 @@ ul p {
   height: 120px;
   padding: 44px 0 5px 0;
   background-color: #1b2431;
+  border: none;
 }
 .SectionHosting p {
   color: white;
