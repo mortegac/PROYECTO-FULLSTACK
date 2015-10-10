@@ -107,7 +107,8 @@ section .imgheader {
   width: 300px;
   display: block;
 }
-.textoSlice .cuadroBusqueda {
+
+.cuadroBusqueda {
   background-color: #ccc;
   width: 79%;
   height: 51px;
@@ -119,7 +120,8 @@ section .imgheader {
   right: 10%;
   z-index: 1;
 }
-.textoSlice input {
+
+input {
   display: inline-block;
   width: 78%;
   padding: 20px 20px;
