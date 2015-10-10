@@ -86,7 +86,28 @@ section .imgheader {
   position: relative;
   height: 480px;
 }
-.sectionSlice .cuadroBusqueda {
+
+.textoSlice {
+  position: absolute;
+  bottom: -23px;
+  left: 10%;
+  right: 10%;
+  z-index: 1;
+  top: 39%;
+}
+.textoSlice h3 {
+  color: #fff;
+  font-size: 1.5em;
+  margin: 0px;
+  margin-bottom: 10px;
+}
+.textoSlice span {
+  font-size: 0.7em;
+  color: #c6c6c6;
+  width: 300px;
+  display: block;
+}
+.textoSlice .cuadroBusqueda {
   background-color: #ccc;
   width: 79%;
   height: 51px;
@@ -98,7 +119,7 @@ section .imgheader {
   right: 10%;
   z-index: 1;
 }
-.sectionSlice input {
+.textoSlice input {
   display: inline-block;
   width: 78%;
   padding: 20px 20px;
@@ -206,6 +227,46 @@ ul p {
   background-image: url(ico4.png);
   background-repeat: no-repeat;
   background-position: center;
+}
+
+.SectionForm {
+  position: relative;
+  height: 500px;
+}
+
+.FormIzq {
+  margin-left: 50px;
+  width: 40%;
+  display: inline-block;
+  position: relative;
+  padding: 5px 5px;
+  margin-bottom: 30px;
+}
+.FormIzq input {
+  display: block;
+  padding: 20px 20px;
+  width: 89%;
+  height: 4px;
+  font-size: 12px;
+  margin-bottom: 10px;
+}
+
+.FormDer {
+  margin-right: 50px;
+  margin-bottom: 30px;
+  width: 45%;
+  display: inline-block;
+  position: relative;
+  padding: 5px 5px;
+  top: 27px;
+}
+.FormDer textarea {
+  width: 100%;
+  padding: 20px 20px;
+  height: 128px;
+  font-size: 12px;
+  width: 90%;
+  text-align: left;
 }
 
 .sectionIphone {
