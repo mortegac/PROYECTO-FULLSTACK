@@ -6,3 +6,5 @@ EL RESULTADO PUEDES VERLO EN
 * TP1: 
 * TP2: http://fullstack.apgca.cl/tp2/index.html
 
+
+# MAQUETACION OPTIMIZADA A UNA RESOLUCION DE 1024 DE ANCHO

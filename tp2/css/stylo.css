@@ -39,20 +39,36 @@ header nav li {
   padding-right: 15px;
 }
 .menu-top a:link {
-  color: #233141;
+  color: #9a9da3;
   text-decoration: none;
 }
 .menu-top a:visited {
-  color: #233141;
+  color: #9a9da3;
   text-decoration: none;
 }
 .menu-top a:hover {
-  color: #aaadb2;
+  color: black;
   text-decoration: none;
 }
 .menu-top a:active {
-  color: #aaadb2;
+  color: #9a9da3;
   text-decoration: none;
+}
+
+.MenuActivo:link {
+  color: black !important;
+}
+
+.MenuActivo:visited {
+  color: black !important;
+}
+
+.MenuActivo:hover {
+  color: black !important;
+}
+
+.MenuActivo:active {
+  color: black !important;
 }
 
 section {
@@ -213,48 +229,95 @@ ul p {
   color: #686868;
 }
 
-.divCentro {
-  margin: 0 auto;
-  position: absolute;
-  bottom: -114px;
-  right: 33%;
+.divIzquierdo2 {
+  width: 32%;
+  display: inline-block;
+  position: relative;
+  margin-top: 30px;
+}
+
+.divCentro2 {
+  width: 32%;
+  height: 622px;
+  display: inline-block;
+  position: relative;
+  background-image: url(../asset/images/iphone2.png);
+  background-repeat: no-repeat;
+  background-position: center;
+  background-size: auto auto;
   z-index: 1;
+  top: -215px;
 }
 
-.divIzquierdo {
-  float: left;
-  display: block;
+.divDerecho2 {
+  width: 32%;
+  display: inline-block;
+  position: relative;
 }
 
-.divDerecho {
-  float: right;
-  display: block;
+.ServIzq {
+  width: 80%;
+  display: inline-block;
+  position: relative;
+  text-align: right;
+  padding-left: 6px;
 }
-
-.Iphone {
-  display: block;
-  margin-left: 2%;
-  margin-top: 90px;
-}
-.Iphone ul {
-  padding: 0px 0px;
-}
-.Iphone li {
-  list-style: none;
-  display: table-row-group;
+.ServIzq h4 {
+  display: inline-block;
   margin: 0px;
-  width: 24%;
-  text-align: center;
 }
-.Iphone h3 {
-  font-size: 12px;
-  color: #444444;
+.ServIzq p {
+  display: inline-block;
+  position: relative;
+  margin: 0px;
+  font-size: 0.7em;
+  color: #68686E;
 }
-.Iphone p {
-  font-size: 11px;
-  color: #686868;
-  display: inherit;
-  width: 200px;
+
+.ServIco {
+  width: 50px;
+  height: 50px;
+  display: inline-block;
+  position: relative;
+  vertical-align: top;
+}
+.ServIco figure {
+  margin: 0px;
+}
+
+.bloque {
+  display: bloque;
+  margin-bottom: 50px;
+}
+
+.ServDer {
+  width: 80%;
+  display: inline-block;
+  position: relative;
+  text-align: left;
+  padding-right: 6px;
+}
+.ServDer h4 {
+  display: inline-block;
+  margin: 0px;
+}
+.ServDer p {
+  display: inline-block;
+  position: relative;
+  margin: 0px;
+  font-size: 0.7em;
+  color: #68686E;
+}
+
+.ServIcoDer {
+  width: 50px;
+  height: 50px;
+  display: inline-block;
+  position: relative;
+  vertical-align: top;
+}
+.ServIcoDer figure {
+  margin: 0px;
 }
 
 .sectionTablePrecios {
@@ -283,7 +346,6 @@ ul p {
   height: 300px;
   box-shadow: 2px 2px 2px #aaa;
   background-color: #fff;
-  border: 1px #ccc solid;
 }
 .sectionTablePrecios .divContiene .cuadro .divValor {
   position: relative;
@@ -400,7 +462,7 @@ footer {
   position: relative;
   height: 30px;
   padding: 24px 0 5px 0;
-  background-color: #11021d;
+  background-color: #11171e;
   font-size: 10px;
   color: white;
 }

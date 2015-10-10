@@ -36,25 +36,37 @@ header
 .menu-top
 	font-size: 12px
 	font-weight: bold
-
-
 	li
 		padding-right: 15px
 	a:link
-		color: #233141
+		color: rgb(154, 157, 163)
 		text-decoration: none
 
 	a:visited
-		color: #233141
+		color: rgb(154, 157, 163)
 		text-decoration: none
 
 	a:hover
-		color: #aaadb2
+		color: rgb(0, 0, 0)
 		text-decoration: none
 
 	a:active
-		color: #aaadb2
+		color: rgb(154, 157, 163)
 		text-decoration: none
+
+.MenuActivo:link
+	color: rgb(0, 0, 0) !important
+
+.MenuActivo:visited
+	color: rgb(0, 0, 0) !important
+
+.MenuActivo:hover
+	color: rgb(0, 0, 0) !important
+
+.MenuActivo:active
+	color: rgb(0, 0, 0) !important
+
+
 
 section
 	border: 1px solid #FFF
@@ -116,22 +128,17 @@ button
 	margin-left: 2%
 	margin-top: 90px
 
-
 ul
 	padding: 0px 0px
-
-
 	li
 		list-style: none
 		display: inline-block
 		margin: 0px
 		width: 24%
 		text-align: center
-
 	h3
 		font-size: 12px
 		color: #444444
-
 	p
 		font-size: 11px
 		color: #686868
@@ -181,11 +188,9 @@ ul
 	background-repeat: no-repeat
 	background-position: center
 
-
 .sectionIphone
 	position: relative
 	height: 685px
-
 
 .divTop
 	text-align: center
@@ -201,51 +206,82 @@ ul
 		font-size: 14px
 		color: #686868
 
-.divCentro
-	margin: 0 auto
-	position: absolute
-	bottom: -114px
-	right: 33%
+.divIzquierdo2
+	width: 32%
+	display: inline-block
+	position: relative
+	margin-top: 30px
+
+.divCentro2
+	width: 32%
+	height: 622px
+	display: inline-block
+	position: relative
+	background-image: url(../asset/images/iphone2.png)
+	background-repeat: no-repeat
+	background-position: center
+	background-size: auto auto
 	z-index: 1
+	top: -215px
 
-.divIzquierdo
-	float: left
-	display: block
+.divDerecho2
+	width: 32%
+	display: inline-block
+	position: relative
 
-	
-.divDerecho
-	float: right
-	display: block
-
-
-.Iphone
-	display: block
-	margin-left: 2%
-	margin-top: 90px
-
-
-	ul
-		padding: 0px 0px
-
-
-	li
-		list-style: none
-		display: table-row-group
+.ServIzq
+	width: 80%
+	display: inline-block
+	position: relative
+	text-align: right
+	padding-left: 6px
+	h4
+		display: inline-block
 		margin: 0px
-		width: 24%
-		text-align: center
-
-	h3
-		font-size: 12px
-		color: #444444
-
 	p
-		font-size: 11px
-		color: #686868
-		display: inherit
-		width: 200px
+		display: inline-block
+		position: relative
+		margin: 0px
+		font-size: 0.7em
+		color: #68686E
 
+.ServIco
+	width: 50px
+	height: 50px
+	display: inline-block
+	position: relative
+	vertical-align: top
+	figure
+		margin: 0px
 
+.bloque
+	display: bloque
+	margin-bottom: 50px
+
+.ServDer
+	width: 80%
+	display: inline-block
+	position: relative
+	text-align: left
+	padding-right: 6px
+	h4
+		display: inline-block
+		margin: 0px
+	p
+		display: inline-block
+		position: relative
+		margin: 0px
+		font-size: 0.7em
+		color: #68686E
+
+.ServIcoDer
+	width: 50px
+	height: 50px
+	display: inline-block
+	position: relative
+	vertical-align: top
+	figure
+		margin: 0px
 
 .sectionTablePrecios
 	position: relative
@@ -268,13 +304,11 @@ ul
 		text-align: center
 		margin: 0 5%
 
-
 		.cuadro
 			width: 200px
 			height: 300px
 			box-shadow: 2px 2px 2px #aaa
 			background-color: #fff
-			border: 1px #ccc solid
 
 			.divValor
 				position: relative
@@ -312,15 +346,10 @@ ul
 			height: 1px
 			border: 0
 
-
-
 		.divUno
 			display: inline-block
 			margin-left: 20px
 			margin-right: 20px
-			
-			
-
 
 		.divDos
 			display: inline-block
@@ -365,15 +394,10 @@ ul
 	width: 150px
 	height: 15px
 
-
 .SectionValorHosting
 	position: relative
 	height: 300px
 	padding-top: 110px
-
-
-
-
 
 .SectionHosting
 	position: relative
@@ -390,13 +414,11 @@ ul
 		font-weight: bold
 		font-size: 22px
 
-
-
 footer
 	position: relative
 	height: 30px
 	padding: 24px 0 5px 0
-	background-color: rgb(17,2,29)
+	background-color: rgb(17,23,30)
 	font-size: 10px
 	color: rgb(255,255,255)
 
@@ -408,10 +430,7 @@ footer
 		float: right
 		margin-right: 10%
 
-
 .menu-abajo
-	
-
 	li
 		padding-right: 30px
 		list-style: none
